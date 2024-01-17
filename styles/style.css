@@ -87,6 +87,10 @@ body {
     filter: brightness(150%);
 }
 
+.destaque {
+    color: var(--secondary-color);
+}
+
 .sobremim {
     width: 50%;
     margin-left: 600px;
@@ -240,6 +244,7 @@ body {
 
 .cv a:hover {
     color: var(--tec-color-two);
+    filter: brightness(120%);
 }
 
 .projetos {
@@ -292,6 +297,7 @@ body {
 
 .projetos:hover {
     background-color: var(--primary-hover);
+    filter: brightness(110%);
     border-radius: 3px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
@@ -305,6 +311,7 @@ body {
 .projetos:hover img {
     border: 3px solid var(--border-img-hover);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    filter: brightness(120%);
 
 
 }
