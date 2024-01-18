@@ -360,6 +360,10 @@ body {
         letter-spacing: 1px;
 }
 
+.projeto-ww img {
+    display: none;
+}
+
 @media screen and (min-height: 1200px) {
     /* Aplique estilos específicos para telas grandes, por exemplo, monitores Full HD e maiores */
     .links {
