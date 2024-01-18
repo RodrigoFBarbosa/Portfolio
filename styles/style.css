@@ -342,9 +342,215 @@ body {
     margin-top: -120px;
 }
 
+.sobremim-responsivo {
+    display: none;
+    color: var(--secondary-color);
+    font-size: 15px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.sobremim-responsivo-projetos {
+        display: none;
+        color: var(--secondary-color);
+        font-size: 15px;
+        font-family: var(--primary-font);
+        font-weight: 700;
+        letter-spacing: 1px;
+}
+
 @media screen and (min-height: 1200px) {
     /* Aplique estilos específicos para telas grandes, por exemplo, monitores Full HD e maiores */
     .links {
         margin-top: 765px; /* Ajuste a margem conforme necessário para telas grandes */
     }
+}
+
+@media screen and (max-width: 768px) {
+    /* Estilos específicos para telas de celular */
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px; /* Ajuste conforme necessário */
+        width: 90%; /* Ajuste conforme necessário */
+    }
+
+    .cabecalho {
+        position: relative;
+        margin-bottom: 50px; /* Ajuste conforme necessário */
+    }
+
+    .cabecalho h1 {
+        font-size: 38px;
+    }
+
+    .cabecalho h2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .navegacao ul {
+        display: none;
+    }
+
+    .links {
+        margin-top: -15%;
+        width: 100%;
+        justify-content: left;
+        gap: 8px;
+    }
+
+    .links img {
+        width: 80%;
+        height: auto;
+    }
+
+    .sobremim {
+        margin-left: 0;
+        width: 95%; /* Ajuste conforme necessário */
+        word-spacing: 1.5px;
+    }
+
+    .sobremim-responsivo {
+        display: block;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .sobremim-responsivo-projetos {
+        display: block;
+        margin-top: 40px;
+        margin-bottom: -90px;
+    }
+
+    .sobremim p {
+        width: 100%;
+        font-size: 17px;
+        font-weight: normal;
+        filter: opacity(90%);
+    }
+
+    .experiencia {
+        margin-top: 80px; /* Ajuste conforme necessário */
+    }
+
+    .experiencia-qa {
+        flex-direction: column;
+        width: 140%;
+    }
+
+    .experiencia-qa li {
+        font-size: 13px;
+    }
+
+    .experiencia-qa header {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .experiencia-qa h3 {
+        font-size: 16px;
+    }
+
+    .experiencia-qa p {
+        font-size: 14px;
+    } 
+
+    .habilidade {
+        margin-top: 80px; /* Ajuste conforme necessário */
+    }
+
+    .habilidade-texto {
+        margin-left: -110px;
+        width: 100%;
+    }
+
+    .habilidade-texto h3 {
+        font-size: 16px;
+    }
+
+    .habilidade-texto p {
+        font-size: 14px;
+    }
+
+    .habilidade-texto li {
+        font-size: 12px;
+    }
+
+    .habilidade img {
+        display: none;
+    }
+
+    .cv {
+        margin-top: 50px; /* Ajuste conforme necessário */
+        margin-bottom: 100px;
+    }
+
+    .cv a {
+        font-size: 16px;
+    }
+
+    .projetos {
+        flex-direction: column;
+        margin-top: 120px; /* Ajuste conforme necessário */
+    }
+
+    .projetos h3 {
+        font-size: 16px;
+        margin-left: -17px;
+    }
+
+    .projetos p {
+        font-size: 14px;
+        margin-left: -17px;
+    }
+
+    .projetos ul {
+        margin-left: -17px;
+    }
+
+    .projetos li {
+        font-size: 12px;
+    }
+
+    .projetos header{
+        display: none;
+    }
+
+    .projeto-ww img {
+        border: 2px solid var(--quaternary-color);
+        margin-top: 15px;
+        margin-left: -17px;
+        width: 200px;
+        height: auto;
+    }
+
+    .projetos:hover {
+        background-color: var(--primary-color);
+        filter: brightness(100%);
+        border-radius: 3px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    
+    }
+
+    .projetos:hover img {
+        border: 2px solid var(--quaternary-color);
+        filter: brightness(100%);
+    
+    }
+
+    .projetos-2 h3 {
+        margin-top: 30px;
+    }
+
+    .container footer {
+        width: px
+    }
+
+    
+
+    
+
 }
